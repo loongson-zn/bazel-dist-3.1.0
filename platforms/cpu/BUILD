@@ -71,6 +71,11 @@ constraint_value(
 )
 
 constraint_value(
+    name = "loongarch64",
+    constraint_setting = ":cpu",
+)
+
+constraint_value(
     name = "x86_64",
     constraint_setting = ":cpu",
 )

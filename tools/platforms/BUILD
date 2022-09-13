@@ -54,6 +54,11 @@ alias(
 )
 
 alias(
+    name = "loongarch64",
+    actual = "@platforms//cpu:loongarch64",
+)
+
+alias(
     name = "os",
     actual = "@platforms//os:os",
 )
@@ -109,6 +114,7 @@ platform(
         "@platforms//cpu:arm",
         "@platforms//cpu:aarch64",
         "@platforms//cpu:s390x",
+        "@platforms//cpu:loongarch64",
     ],
     host_platform = True,
     os_constraints = [
@@ -131,6 +137,7 @@ platform(
         "@platforms//cpu:arm",
         "@platforms//cpu:aarch64",
         "@platforms//cpu:s390x",
+        "@platforms//cpu:loongarch64",
     ],
     os_constraints = [
         "@platforms//os:osx",

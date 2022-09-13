@@ -187,7 +187,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz": "c00ceec469dbcf7929972e3c79f20c14033824538038a554952f5c31d8832f96",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
+        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "4fb249419c77661f51f19dc476ae914a81365175fd17c7d8fc3b973da284edf8",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": "bc81f1ba47ef5cc68ad32225c3d0e70b8c6f6077663835438da8d5733f917598",
         # bazelbuild/rules_cc
@@ -240,8 +240,9 @@ distdir_tar(
         ],
         # bazelbuild/platforms
         "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": [
-            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+            "file:///home/zn/zhangna-github/test/platforms/test/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
         ],
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": [
@@ -510,7 +511,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz": "c00ceec469dbcf7929972e3c79f20c14033824538038a554952f5c31d8832f96",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
+        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "4fb249419c77661f51f19dc476ae914a81365175fd17c7d8fc3b973da284edf8",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": "bc81f1ba47ef5cc68ad32225c3d0e70b8c6f6077663835438da8d5733f917598",
         # bazelbuild/rules_cc
@@ -539,8 +540,9 @@ distdir_tar(
         ],
         # bazelbuild/platforms
         "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": [
-            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+            "file:///home/zn/zhangna-github/test/platforms/test/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
         ],
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": [
@@ -607,11 +609,12 @@ http_archive(
 
 http_archive(
     name = "platforms",
-    sha256 = "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
+    sha256 = "4fb249419c77661f51f19dc476ae914a81365175fd17c7d8fc3b973da284edf8",
     strip_prefix = "platforms-46993efdd33b73649796c5fc5c9efb193ae19d51",
     urls = [
-        "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-        "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#        "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+#        "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "file://home/zn/zhangna-github/test/platforms/test/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
     ],
 )
 

@@ -26,6 +26,7 @@ public enum CPU {
   PPC("ppc", ImmutableSet.of("ppc", "ppc64", "ppc64le")),
   ARM("arm", ImmutableSet.of("arm", "armv7l")),
   AARCH64("aarch64", ImmutableSet.of("aarch64")),
+  LOONGARCH64("loongarch64", ImmutableSet.of("loongarch64")),
   S390X("s390x", ImmutableSet.of("s390x", "s390")),
   UNKNOWN("unknown", ImmutableSet.<String>of());
 

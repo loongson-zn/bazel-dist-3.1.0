@@ -136,6 +136,7 @@ cc_library(
     hdrs = [":jni_header"] + select({
         "//src/conditions:linux_x86_64": [":jni_md_header-linux"],
         "//src/conditions:linux_aarch64": [":jni_md_header-linux"],
+        "//src/conditions:linux_loongarch64": [":jni_md_header-linux"],
         "//src/conditions:darwin": [":jni_md_header-darwin"],
         "//src/conditions:freebsd": [":jni_md_header-freebsd"],
         "//src/conditions:openbsd": [":jni_md_header-openbsd"],
@@ -145,6 +146,7 @@ cc_library(
     includes = ["include"] + select({
         "//src/conditions:linux_x86_64": ["include/linux"],
         "//src/conditions:linux_aarch64": ["include/linux"],
+        "//src/conditions:linux_loongarch64": ["include/linux"],
         "//src/conditions:darwin": ["include/darwin"],
         "//src/conditions:freebsd": ["include/freebsd"],
         "//src/conditions:openbsd": ["include/openbsd"],
