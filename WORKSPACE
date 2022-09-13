@@ -614,7 +614,7 @@ http_archive(
     urls = [
 #        "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
 #        "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-        "file://home/zn/zhangna-github/test/platforms/test/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "file:///home/zn/zhangna-github/test/platforms/test/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
     ],
 )
 
